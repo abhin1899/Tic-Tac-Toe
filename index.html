@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+    <title>Tic Tac Toe</title>
+    <script src="tictactoe.js"></script>
+<style>
+h1 {
+    text-align: center;
+    font-size: 55px;
+    color:lightgoldenrodyellow;
+}
+div {
+  text-align: center;
+  margin: 0px auto;
+  text-align: center;
+  margin: auto;
+}
+body {
+    background-color: black;
+}
+
+.cell {
+  width:85px;
+  height:85px;
+  border: 5px solid #0026ff;
+  background: #FFFFFF;
+  font-size: 46pt;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+
+}
+
+.button1{
+    width:200px;
+    height:80px;
+     background-color: white; 
+     color: black; 
+     border: 2px solid #008CBA;
+     font-size: 16px;
+     cursor: pointer;
+}
+
+
+.cell:hover {
+  background:rgba(255, 255, 255, 0.808);
+  text-align: center;
+}
+</style>
+</head>
+<body>
+        <h1>Tic Tac Toe Game</h1>
+        <div style="position: relative;left: 33%;padding-top:1px;">
+            <table style="width:500px;height:500px;text-align: center">
+                <tr>
+                    <td id="cell11" class="cell"></td>
+                    <td id="cell12" class="cell"></td>
+                    <td id="cell13" class="cell"></td>
+                </tr>
+                <tr>
+                    <td id="cell21" class="cell"></td>
+                    <td id="cell22" class="cell"></td>
+                    <td id="cell23" class="cell"></td>
+                </tr>
+                <tr>
+                    <td id="cell31" class="cell"></td>
+                    <td id="cell32" class="cell"></td>
+                    <td id="cell33" class="cell"></td>
+                </tr>
+            </table>
+        </div>
+        <br /><br />
+        <div  style="padding-top:0px;">
+        <input class="button1" id="reset" type="button" value="RESET" />
+        </div>
+        <br /><br />
+</body>
+</html>
